@@ -100,4 +100,4 @@ Dibangun menggunakan **Python**, **PyQt5**, dan **MySQL**, aplikasi ini dirancan
 ## 📜 Lisensi
 Proyek ini dilisensikan di bawah MIT License.
 
-© 2023 Jiepra. Dibuat dengan ❤️ untuk manajemen toko modern.
+© 2025 Jiepra. Dibuat dengan ❤️ untuk manajemen toko modern.
