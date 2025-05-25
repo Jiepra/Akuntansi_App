@@ -72,4 +72,19 @@ Dibangun menggunakan **Python**, **PyQt5**, dan **MySQL**, aplikasi ini dirancan
 
 
 ## 🏗️ Struktur Database
-![deepseek_mermaid_20250525_04abb2](https://github.com/user-attachments/assets/38afb9da-bcb6-4d80-88b4-dee4968b22e7)
+erDiagram
+    BARANG ||--o{ PENJUALAN : "1-to-many"
+    BARANG {
+        string kode PK
+        string nama
+        int stok
+        int harga_beli
+        int harga_jual
+    }
+    PENJUALAN {
+        int id PK
+        datetime tanggal
+        string kode_barang FK
+        int jumlah
+        int harga_satuan
+    }
