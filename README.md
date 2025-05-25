@@ -70,21 +70,27 @@ Dibangun menggunakan **Python**, **PyQt5**, dan **MySQL**, aplikasi ini dirancan
 
    python client_app.py
 
+---
 
 ## 🏗️ Struktur Database
-erDiagram
-    BARANG ||--o{ PENJUALAN : "1-to-many"
-    BARANG {
-        string kode PK
-        string nama
-        int stok
-        int harga_beli
-        int harga_jual
-    }
-    PENJUALAN {
-        int id PK
-        datetime tanggal
-        string kode_barang FK
-        int jumlah
-        int harga_satuan
-    }
+
+### 📑 Tabel: `produk`
+| Kolom        | Tipe Data     | Keterangan              |
+|--------------|---------------|--------------------------|
+| `id`         | INT (PK, AI)  | ID unik produk           |
+| `kode`       | VARCHAR(20)   | Kode barang              |
+| `nama`       | VARCHAR(100)  | Nama produk              |
+| `harga_beli` | INT           | Harga beli               |
+| `harga_jual` | INT           | Harga jual               |
+| `stok`       | INT           | Jumlah stok tersedia     |
+
+### 📑 Tabel: `transaksi`
+| Kolom          | Tipe Data     | Keterangan                    |
+|----------------|---------------|--------------------------------|
+| `id`           | INT (PK, AI)  | ID transaksi                   |
+| `tanggal`      | DATE          | Tanggal transaksi              |
+| `kode_produk`  | VARCHAR(20)   | Kode produk                    |
+| `jumlah`       | INT           | Jumlah barang terjual          |
+| `total_harga`  | INT           | Total harga dari transaksi     |
+
+> **Catatan**: Anda dapat menambahkan tabel `pengguna` atau `akun` jika aplikasi dikembangkan lebih lanjut dengan sistem login.
