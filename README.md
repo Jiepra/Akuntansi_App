@@ -1,60 +1,56 @@
-🧾 Akuntasi_App
-Aplikasi Desktop Akuntansi Toko Modern
-📊 Dibangun dengan Python, PyQt5, dan MySQL
+# 🏪 Aplikasi Akuntansi Toko Modern
 
-📌 Deskripsi
-Akuntasi_App adalah aplikasi desktop yang dirancang untuk membantu pengelolaan akuntansi toko modern. Dengan antarmuka grafis yang intuitif dan fitur lengkap, aplikasi ini memudahkan pengguna dalam mengelola produk, transaksi, laporan keuangan, dan ekspor data.
+Aplikasi desktop untuk manajemen akuntansi toko modern dengan antarmuka grafis yang intuitif dan fitur lengkap.  
+Dibangun menggunakan **Python**, **PyQt5**, dan **MySQL**, aplikasi ini dirancang untuk memudahkan pengelolaan produk, transaksi, dan laporan keuangan.
 
-🚀 Fitur Unggulan
-Manajemen Produk
+---
 
-✅ Tambah, edit, dan hapus produk
+## 🌟 Fitur Unggulan
 
-📦 Tampilan produk dengan stok real-time
+### 📦 Manajemen Produk
+- ✅ Tambah, edit, dan hapus produk
+- 📊 Menampilkan stok produk secara real-time
+- 🔍 Pencarian produk cepat dan efisien
 
-🔍 Pencarian produk yang cepat dan efisien
+### 💰 Manajemen Transaksi
+- 🧾 Mencatat transaksi penjualan
+- 📅 Filter transaksi berdasarkan periode waktu
+- 📈 Visualisasi riwayat transaksi
 
-Manajemen Transaksi
+### 📊 Laporan Keuangan
+- 📉 Grafik interaktif untuk laporan laba rugi
+- 🔢 Analisis keuangan otomatis
+- 🗓️ Laporan keuangan berdasarkan periode yang dapat disesuaikan
 
-🧾 Pencatatan transaksi penjualan
+### 📤 Ekspor Data
+- 📄 Ekspor laporan ke format Excel (.xlsx)
+- 🖨️ Ekspor laporan ke format PDF profesional
+- 🖼️ Termasuk grafik dalam hasil ekspor
 
-📅 Filter transaksi berdasarkan periode waktu
+---
 
-📈 Visualisasi riwayat transaksi yang informatif
+## 🛠️ Teknologi
 
-Laporan Keuangan
+| Komponen       | Teknologi     |
+|----------------|----------------|
+| **Frontend**   | PyQt5          |
+| **Backend**    | Python 3.8+    |
+| **Database**   | MySQL          |
+| **Visualisasi**| Matplotlib     |
+| **Ekspor Excel**| OpenPyXL      |
+| **Ekspor PDF** | FPDF           |
 
-📊 Grafik interaktif untuk analisis laba rugi
+---
 
-🤖 Analisis keuangan otomatis
+## 🚀 Instalasi
 
-🗓️ Laporan keuangan dengan periode kustom
+### 📦 Prasyarat
+- Python 3.8 atau lebih baru
+- MySQL Server
+- Git (opsional)
 
-Ekspor Data
-
-📄 Ekspor laporan ke format Excel (.xlsx) menggunakan OpenPyXL
-
-🧾 Ekspor laporan ke format PDF profesional menggunakan FPDF
-
-📊 Grafik disertakan dalam ekspor untuk visualisasi yang lebih baik
-
-🛠️ Teknologi yang Digunakan
-Frontend: PyQt5
-
-Backend: Python 3.8+
-
-Database: MySQL
-
-Visualisasi Data: Matplotlib
-
-Ekspor Excel: OpenPyXL
-
-Ekspor PDF: FPDF
-
-🧪 Instalasi
-Prasyarat
-Python 3.8 atau lebih baru
-
-MySQL Server
-
-Git (opsional)
+### 🔧 Langkah-langkah
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/Jiepra/Akuntasi_App.git
+   cd Akuntasi_App
