@@ -1,51 +1,59 @@
-🏪 Aplikasi Akuntansi Toko Modern
-Python
-PyQt5
-MySQL
-License
+🧾 Akuntasi_App
+Aplikasi Desktop Akuntansi Toko Modern
+📊 Dibangun dengan Python, PyQt5, dan MySQL
 
-Aplikasi desktop untuk manajemen akuntansi toko modern dengan antarmuka grafis yang intuitif dan fitur lengkap.
+📌 Deskripsi
+Akuntasi_App adalah aplikasi desktop yang dirancang untuk membantu pengelolaan akuntansi toko modern. Dengan antarmuka grafis yang intuitif dan fitur lengkap, aplikasi ini memudahkan pengguna dalam mengelola produk, transaksi, laporan keuangan, dan ekspor data.
 
-🌟 Fitur Unggulan
-📦 Manajemen Produk
-✅ Tambah, edit, hapus produk
+🚀 Fitur Unggulan
+Manajemen Produk
 
-📊 Tampilan produk dengan stok real-time
+✅ Tambah, edit, dan hapus produk
 
-🔍 Pencarian cepat produk
+📦 Tampilan produk dengan stok real-time
 
-💰 Manajemen Transaksi
+🔍 Pencarian produk yang cepat dan efisien
+
+Manajemen Transaksi
+
 🧾 Pencatatan transaksi penjualan
 
-📅 Filter transaksi berdasarkan periode
+📅 Filter transaksi berdasarkan periode waktu
 
-📈 Visualisasi riwayat transaksi
+📈 Visualisasi riwayat transaksi yang informatif
 
-📊 Laporan Keuangan
-📉 Grafik interaktif laba rugi
+Laporan Keuangan
 
-🔢 Analisis keuangan otomatis
+📊 Grafik interaktif untuk analisis laba rugi
 
-🗓️ Laporan periode custom
+🤖 Analisis keuangan otomatis
 
-📤 Ekspor Data
-📄 Export ke Excel (format .xlsx)
+🗓️ Laporan keuangan dengan periode kustom
 
-🖨️ Export ke PDF profesional
+Ekspor Data
 
-🖼️ Grafik termasuk dalam ekspor
+📄 Ekspor laporan ke format Excel (.xlsx) menggunakan OpenPyXL
 
-🛠️ Teknologi
-Komponen	Teknologi
-Frontend	PyQt5
-Backend	Python 3.8+
-Database	MySQL
-Visualisasi	Matplotlib
-Ekspor Excel	OpenPyXL
-Ekspor PDF	FPDF
-🚀 Instalasi
+🧾 Ekspor laporan ke format PDF profesional menggunakan FPDF
+
+📊 Grafik disertakan dalam ekspor untuk visualisasi yang lebih baik
+
+🛠️ Teknologi yang Digunakan
+Frontend: PyQt5
+
+Backend: Python 3.8+
+
+Database: MySQL
+
+Visualisasi Data: Matplotlib
+
+Ekspor Excel: OpenPyXL
+
+Ekspor PDF: FPDF
+
+🧪 Instalasi
 Prasyarat
-Python 3.8+
+Python 3.8 atau lebih baru
 
 MySQL Server
 
