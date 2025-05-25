@@ -94,3 +94,10 @@ Dibangun menggunakan **Python**, **PyQt5**, dan **MySQL**, aplikasi ini dirancan
 | `total_harga`  | INT           | Total harga dari transaksi     |
 
 > **Catatan**: Anda dapat menambahkan tabel `pengguna` atau `akun` jika aplikasi dikembangkan lebih lanjut dengan sistem login.
+
+---
+
+## 📜 Lisensi
+Proyek ini dilisensikan di bawah MIT License.
+
+© 2023 Jiepra. Dibuat dengan ❤️ untuk manajemen toko modern.
