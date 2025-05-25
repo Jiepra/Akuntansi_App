@@ -653,14 +653,15 @@ class PaymentDialog(QDialog):
 class ReviewDialog(QDialog):
     def __init__(self):
         super().__init__()
-        self.rating = 5
-        self.comment = ""
-        self.email = ""
+        # Remove these lines since they're not needed
+        # self.rating = 5  # This is what caused the error
+        # self.comment = ""
+        # self.email = ""
         self.setup_ui()
         
     def setup_ui(self):
         self.setWindowTitle("Ulasan Pembelian")
-        self.setFixedSize(500, 450)
+        self.setFixedSize(800, 750)
         self.setStyleSheet("""
             QDialog {
                 background: white;
@@ -689,7 +690,7 @@ class ReviewDialog(QDialog):
             rb.setStyleSheet("font-size: 14pt;")
             self.rating_buttons.addButton(rb, i)
             rating_layout.addWidget(rb)
-        self.rating_buttons.button(5).setChecked(True)
+        self.rating_buttons.button(5).setChecked(True)  # Default to 5 stars
         
         # Comments
         lbl_comment = QLabel("Komentar:")
