@@ -54,3 +54,17 @@ Dibangun menggunakan **Python**, **PyQt5**, dan **MySQL**, aplikasi ini dirancan
    ```bash
    git clone https://github.com/Jiepra/Akuntasi_App.git
    cd Akuntasi_App
+2. Install dependensi Python:
+   ```bash
+   pip install -r requirements.txt
+3. Setup database:
+   ```bash
+   Buat database MySQL bernama akuntansi
+   Jalankan skema SQL yang disediakan
+4. Konfigurasi koneksi:
+   ```bash
+   Edit DB_CONFIG di admin_app.py sesuai setting MySQL Anda.
+6. Jalankan aplikasi:
+   ```bash
+   python admin_app.py
+   python client_app.py
